@@ -1,4 +1,5 @@
 require File.expand_path('../boot', __FILE__)
+config.secret_key_base = Figaro.env.secret_key_base
 
 # Pick the frameworks you want:
 require "active_model/railtie"
