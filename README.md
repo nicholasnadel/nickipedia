@@ -1,4 +1,4 @@
-#[Nickipedia](http://nickmarks.nickipedia.com/)
+#[Nickipedia](http://nickipedia.herokuapp.com/)
 
 ![alt text](/public/nickipedia.png)
 
