@@ -1,0 +1,17 @@
+<h1>All Pages</h1>
+
+<% if policy(Page.new).create? %>
+<h2><%= link_to "New Page", new_page_path, class: 'btn btn-success' %></h2>
+<% end %>
+<container>
+<% @pages.each do |page| %>
+</p>
+
+   <h3><%= link_to page.title, page %></h3>
+   <p class="thick">
+     Published
+     <%= page.created_at.strftime('%b %d, %Y') %>
+
+   </container>
+<% end %>
+
