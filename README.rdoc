@@ -1,2 +1,0 @@
-#Nicipedia
-##A simple Wiki-style blog
